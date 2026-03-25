@@ -50,10 +50,3 @@ def hjhMerge(left, right):
 
     return merged
 
-
-# 示例测试
-if __name__ == "__main__":
-    test_arr = [38, 27, 43, 3, 9, 82, 10]
-    sorted_arr = hjhMergeSort(test_arr)
-    print("排序前:", test_arr)
-    print("排序后:", sorted_arr)
