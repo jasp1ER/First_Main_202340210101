@@ -1,8 +1,3 @@
-if __name__ == '__main__':
-    # 测试数组：统一使用该数组验证排序效果，保证一致性
-    testArr = [9, 3, 7, 1, 5, 8, 2, 6, 4]
-    print("原始测试数组：", testArr)
-    # 成员调用自己的算法：后续在此处添加代码
 def hjhMergeSort(arr):
     """
     归并排序（Merge Sort）
@@ -49,4 +44,10 @@ def hjhMerge(left, right):
     merged.extend(right[j:])
 
     return merged
+
+if __name__ == '__main__':
+    # 测试数组：统一使用该数组验证排序效果，保证一致性
+    testArr = [9, 3, 7, 1, 5, 8, 2, 6, 4]
+    print("原始测试数组：", testArr)
+    # 成员调用自己的算法：后续在此处添加代码
 
