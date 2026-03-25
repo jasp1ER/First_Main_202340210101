@@ -50,4 +50,6 @@ if __name__ == '__main__':
     testArr = [9, 3, 7, 1, 5, 8, 2, 6, 4]
     print("原始测试数组：", testArr)
     # 成员调用自己的算法：后续在此处添加代码
+    sortedArr = hjhMergeSort(testArr)
+    print("排序后数组：",sortedArr)
 
